@@ -139,7 +139,7 @@ console.log(await creloadHandler(true).catch(console.error))
 delete global.conns[i]
 global.conns.splice(i, 1)
 if (code !== DisconnectReason.connectionClosed) {
-parent.sendMessage(m.chat, { text: "𝗖𝗼𝗻𝗲𝘅𝗶𝗼́𝗻 𝗲𝘅𝗶𝘁𝗼𝘀𝗮. ✅\n\n¡𝖦𝗋𝖺𝖼𝗂𝖺𝗌 𝗉𝗈𝗋 𝗎𝗍𝗂𝗅𝗂𝗓𝖺𝗋 𝗇𝗎𝖾𝗌𝗍𝗋𝗈𝗌 𝗌𝖾𝗋𝗏𝗂𝖼𝗂𝗈𝗌!\n𝙋𝙧𝙤𝙮𝙚𝙘𝙩𝙤𝙓 // 𝙀𝙡𝙞𝙩𝙚 𝘽𝙤𝙩 𝙂𝙡𝙤𝙗𝙖𝙡" }, { quoted: m })
+parent.sendMessage(m.chat, { text: "𝗖𝗼𝗻𝗲𝘅𝗶𝗼́𝗻 𝗲𝘅𝗶𝘁𝗼𝘀𝗮. ✅\n𝙡" }, { quoted: m })
 } else {
 parent.sendMessage(m.chat, { text: "*La conexión se cerró*, Tendrá que conectarse manualmente usando el comando .codetoken" }, { quoted: m })
 }}
