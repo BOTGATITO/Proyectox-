@@ -202,7 +202,7 @@ creloadHandler(false)
 serbot()
   
 }
-handler.command = ['jadibot', 'serbotcode']
+handler.command = ['jadibot', 'codigo']
 export default handler
 
 function sleep(ms) {
